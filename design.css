@@ -2,8 +2,21 @@
     width: 500px;
     height: 500px;
 }
+
 .single-item{
-    margin-left: 30%;
-    width: 500px;
-    height: 500px;
+    min-width: 0;
 }
+.flex__column{
+    min-width: 0;
+}
+.slider .slick-arrow {
+    position: absolute;
+    top: 50%;
+    z-index: 10;
+}
+.slider .slick-arrow .slick-prev{
+    left: 0;
+} 
+.slider .slick-arrow .slick-next{
+    right:  0;
+} 
